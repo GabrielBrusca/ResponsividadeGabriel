@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bruscar </title>
+  <title>Bruscar</title>
   <link rel="stylesheet" href="reset.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,21 +22,21 @@
         <span class="cabeçalho__menu-hamburguer container__imagem"></span>
       </label>
       <ul class="lista-menu">
-        <li class="lista-menu__titulo">Marcas</li>
+        <li class="lista-menu__titulo">Categorias</li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Wolkswagem</a>
+          <a href="#" class="lista-menu__link">Programação</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Chevrolet </a>
+          <a href="#" class="lista-menu__link">Front-end</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Hyundai</a>
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Ford</a>
+          <a href="#" class="lista-menu__link">Business</a>
         </li>
         <li class="lista-menu__item">
-          <a href="#" class="lista-menu__link">Toyota</a>
+          <a href="#" class="lista-menu__link">Design & UX</a>
         </li>
       </ul>
       <img src="img/Logo.svg" alt="Logo da Alurabooks" class="container__imagem">
@@ -50,23 +50,23 @@
 
         <ul class="lista-menu">
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Honda</a>
+            <a href="#" class="lista-menu__link">Programação</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Volvo</a>
+            <a href="#" class="lista-menu__link">Front-end</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Fiat</a>
+            <a href="#" class="lista-menu__link">Infraestrutura</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">KIA</a>
+            <a href="#" class="lista-menu__link">Business</a>
           </li>
           <li class="lista-menu__item">
-            <a href="#" class="lista-menu__link">Caoa Chery</a>
+            <a href="#" class="lista-menu__link">Design & UX</a>
           </li>
         </ul>
-        <li class="opções__item"><a href="#" class="opções__link"></a></li>
-        <li class="opções__item"><a href="#" class="opções__link"></a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Favoritos</a></li>
+        <li class="opções__item"><a href="#" class="opções__link">Minha estante</a></li>
       </ul>
 
     </div>
@@ -74,13 +74,12 @@
       <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos"
           class="container__imagem container__imagem-transparente"></a>
       <a href="#" class="container__link">
-        <img src="img/chevrolet.svg" alt="Carrinhos de compras" class="container__imagem">
-      
-        <p class="container__texto"></p>
-      </a>D
+        <img src="img/Compras.svg" alt="Carrinhos de compras" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
       <a href="#" class="container__link">
-        <img src="img/SW4.svg" alt="Meu perfil" class="container__imagem">
-        <p class="container__texto"></p>
+        <img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
       </a>
     </div>
   </header>
@@ -94,30 +93,6 @@
   <section class="carrossel">
     <h2 class="carrossel__titulo">Novos lançamentos</h2>
 
-    <div class="carrossel__container">
-      <!-- Slider main container -->
-      <div class="swiper">
-
-        <div class="swiper-pagination"></div>
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide"><img src="img/ApacheKafka.svg"
-              alt="Livro sobre apache kafka e spring boot da alura books"></div>
-          <div class="swiper-slide"><img src="img/Liderança.svg"
-              alt="Livro sobre liderança em design design da alura books"></div>
-          <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alura books">
-          </div>
-          <div class="swiper-slide">
-            <img src="img/Guia Front-end.svg" alt="Livro Guia front end" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/Portugol.svg" alt="Livro sobre portugol" />
-          </div>
-          <div class="swiper-slide">
-            <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
-          </div>
-        </div>
 
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
@@ -133,9 +108,18 @@
             <p class="descrição__texto">
               Construindo uma aplicação integrada com a plataforma do Google.
             </p>
-          </div>
-          <img src="img/Angular.svg" class="descrição__imagem" />
-        </div>
+            <div class="card__descrição">
+              <div class="descrição">
+                <h2 class="descrição__titulo-livro">Silverado 2024</h2>
+                <p class="descrição__texto">
+                  Silverado é a camionete mais tecnológica e bonita do mercado perfeita para o rural e o urbano.
+                </p>
+              </div>
+              <img src="img/chevrolet.svg" 
+                   alt="Imagem do Chevrolet" 
+                   style="width: 150px; height: auto; display: block; margin: 20px auto; object-fit: cover;" />
+            </div>
+            
         <div class="card__botões">
           <ul class="botões">
             <li class="botões__item">
@@ -161,22 +145,9 @@
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
 
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide"><img src="img/ApacheKafka.svg"
-              alt="Livro sobre apache kafka e spring boot da alura books"></div>
-          <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre liderança em design da alura books">
-          </div>
-          <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre javascript assertivo da alurabooks">
-          </div>
-          <div class="swiper-slide"><img src="img/Guia Front-end.svg" alt="Livro Guia front end"></div>
-          <div class="swiper-slide"><img src="img/Portugol.svg" alt="Livro sobre portugol"></div>
-          <div class="swiper-slide"><img src="img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
-        </div>
 
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+
+     
       </div>
 
       <div class="card">
@@ -186,14 +157,23 @@
           <div class="descrição">
             <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
             <h3 class="descrição__titulo">Autora do Mês</h3>
-            <h2 class="descrição__titulo-livro">Juliana Agarikov</h2>
-            <p class="descrição__texto">Analista de sistemas e escritora, Juliana é especialista em
-              Front-End.
+            <h2 class="descrição__titulo-livro">Strada 2024</h2>
+            <p class="descrição__texto">Melhor Mini Picape do Brasil
             </p>
           </div>
           <!-- 2º coluna -->
-          <img src="img/Escritora.svg" class="descrição__imagem">
-        </div>
+          <div class="card__descrição">
+            <div class="descrição">
+              <h2 class="descrição__titulo-livro">Modelo da Strada</h2>
+              <p class="descrição__texto">
+                A Strada é conhecida por sua robustez e versatilidade, perfeita para quem busca um veículo prático e confiável.
+              </p>
+            </div>
+            <img src="img/strada.svg" 
+                 alt="Imagem da Strada" 
+                 style="width: 150px; height: 100px; display: block; margin: 100px 6; object-fit: cover;" />
+          </div>
+          
 
         <!-- 2º linha -->
         <div class="card__botões">
